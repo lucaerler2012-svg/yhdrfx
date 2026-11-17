@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "spearmace2",
+  "version": "${version}",
+  "name": "Spear to Mace 2",
+  "description": "Mit dem Speer in der Hand und einem Spieler in der Naehe wechselt ein Linksklick auf den Mace. Abgestimmt auf die Mod windspear.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.spearmace2.SpearMace2Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "windspear": "*"
+  }
+}
